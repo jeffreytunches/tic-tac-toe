@@ -6,4 +6,73 @@ body {
   background-image: url("http://www.wapphouse.xyz/wp-content/uploads/2016/02/table-top-background-.jpg");
   background-size: cover;
   margin: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+table {
+  max-width: 134px;
+  margin: 0 auto;
+}
+
+td {
+  width: 40px;
+}
+
+tr {
+    height: 40px;
+    width: 80px;
+    background: rgba(50, 30, 30, .8);
+}
+
+h3 {
+  font-size: 11px;
+  color: white;
+  max-width: 130px;
+  margin: 0 auto;
+  background: rgba(50, 30, 30, .8);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+
+}
+
+span {
+  font-size: 7px;
+}
+
+p {
+ max-width: 122px;
+ margin: 0 auto;
+ font-size: 7px;
+ text-align: right;
+ padding-top: 4px;
+ padding-right: 4px;
+ padding: 4px;
+ background: rgba(50, 30, 30, .5);
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(255, 255, 255, .4);
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
