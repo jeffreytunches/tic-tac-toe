@@ -4,21 +4,32 @@
 
 var one = document.getElementById('one');
 */
+/*
+var move = " " // code will go here;
+*/
 
-var one = document.getElementById('one').onclick = function(){code}; // check this code
-var two = document.getElementById('two').onclick = function(){code}; // check this code
-var four = document.getElementById('four').onclick = function(){code}; // check this code
-var eight = document.getElementById('eight').onclick = function(){code}; // check this code
-var sixteen = document.getElementById('sixteen').onclick = function(){code}; // check this code
-var thirty_two = document.getElementById('thirty_two').onclick = function(){code}; // check this code
-var sixty_four = document.getElementById('sixty_four').onclick = function(){code}; // check this code
-var one_twenty_eight = document.getElementById('one_twenty_eight').onclick = function(){code}; // check this code
-var two_ninty_six = document.getElementById('two_ninty_six').onclick = function(){code}; // check this code
+// var tiles = document.getElementsByClassName
 
-var userEntry = X // code will go here;
-var computerEntry = O // code will go here;
+var sq0 = document.getElementById('sq0'); // check this code
+var sq1 = document.getElementById('sq1'); // check this code
+var sq2 = document.getElementById('sq2'); // check this code
+var sq3 = document.getElementById('sq3'); // check this code
+var sq4 = document.getElementById('sq4'); // check this code
+var sq5 = document.getElementById('sq5'); // check this code
+var sq6 = document.getElementById('sq6'); // check this code
+var sq7 = document.getElementById('sq7'); // check this code
+var sq8 = document.getElementById('sq8'); // check this code
+
+var player1 = 'X' //
+var player2 = 'O' //
+var move = " " // code will go here;
+var move1 = "player1"
+var move2 = "player2" // code will go here;
+/*
+var moveCheck = // code will go here;
 var resetGame =  // code will go here;
-
+var win = // code will go here;
+*/
 
 //we add a click function that will fire when a user clicks on the element
 
@@ -29,83 +40,110 @@ var resetGame =  // code will go here;
     });
 */
 
+/*
+function checkPlayer1(0, 1, 2, 3, 4, 5, 6, 7,8)
+function checkPlayer2(0, 1, 2, 3, 4, 5, 6, 7,8)
+*/
 
-one.addEventListener('click',function()) {
+function winLogic() {
+  winCombos=[[sq0, sq1, sq2], [sq3, sq4, sq5], [sq6, sq7, sq8],[sq0, sq3, sq6], [sq1, sq4, sq7], [sq2, sq5, sq8], [sq6, sq6, sq2], [sq0, sq4, sq8]]
+}
+
+function playerMove() {
+ // move callBack
+}
+/*sq0.addEventListener('click',function(){
+
+       sq0.innerHTML= "X";
+   });
+
+*/
+
+sq0.addEventListener('click',function(){
+
+       sq0.setAttribute('value', sq0.innerHTML="x");
+   });
+
+
+
+
+//
+sq1.addEventListener('click',function() {
   // code will go here;
- if (one === X) {
-    console.log(userEntry);
- } else (one === O) {
-    console.log(computerEntry);
- }
+ if (sq1 === 'X') {
+    console.log(player1);
+ } else if (sq1 === 'O') {
+    console.log(player2);
+  }
+ });
 
-two.addEventListener('click',function()) {
+
+sq2.addEventListener('click',function() {
   // code will go here;
- if (two === X) {
-    console.log(userEntry);
- } else (two === O) {
-    console.log(computerEntry);
- }
+ if (sq2 === 'X') {
+    console.log(player1);
+ } else if (sq2 === 'O') {
+    console.log(player2);
+  }
+ });
 
-
-four.addEventListener('click',function()) {
+sq3.addEventListener('click',function() {
   // code will go here;
- if (four === X) {
-    console.log(userEntry);
- } else (four === O) {
-    console.log(computerEntry);
- }
+ if (sq3 === 'X') {
+    console.log(player1);
+ } else if (sq3 === 'O') {
+    console.log(player2);
+  }
+ });
 
-eight.addEventListener('click',function()) {
+
+sq4.addEventListener('click',function() {
   // code will go here;
- if (eight === X) {
-    console.log(userEntry);
- } else (eight === O) {
-    console.log(computerEntry);
- }
+ if (sq4 === 'X') {
+    console.log(player1);
+ } else if (sq4 === 'O') {
+    console.log(player2player2);
+  }
+ });
 
-
-sixteen.addEventListener('click',function()) {
+sq5.addEventListener('click',function() {
   // code will go here;
- if (sixteen === X) {
-    console.log(userEntry);
- } else (sixteen === O) {
-    console.log(computerEntry);
- }
+ if (sq5 === 'X') {
+    console.log(player1);
+ } else if (sq5 === 'O') {
+    console.log(cplayer2);
+  }
+ })
 
-thirty_two.addEventListener('click',function()) {
+
+sq6.addEventListener('click',function() {
   // code will go here;
- if (thirty_two === X) {
-    console.log(userEntry);
- } else (thirty_two === O) {
-    console.log(computerEntry);
- }
+ if (sq6 === 'X') {
+    console.log(player1);
+ } else if (sq6 === 'O') {
+    console.log(player2);
+  }
+ })
 
 
-sixty_four.addEventListener('click',function()) {
+sq7.addEventListener('click',function() {
   // code will go here;
- if (sixty_four === X) {
-    console.log(userEntry);
- } else (sixty_four === O) {
-    console.log(computerEntry);
- }
+ if (sq7 === 'X') {
+    console.log(player1);
+ } else if (sq7 === 'O') {
+    console.log(player2);
+  }
+ })
 
 
-one_twenty_eight.addEventListener('click',function()) {
+sq8.addEventListener('click',function() {
   // code will go here;
- if (one_twenty_eight === X) {
-    console.log(userEntry);
- } else (one_twenty_eight === O) {
-    console.log(computerEntry);
- }
-
-
-two_ninty_six.addEventListener('click',function()) {
-  // code will go here;
- if (two_ninty_six === X) {
-    console.log(userEntry);
- } else (two_ninty_six === O) {
-    console.log(computerEntry);
- }
+ if (sq8 === X) {
+    console.log(player1);
+ } else if (sq8 === O) {
+    console.log(player2);
+  }
+ })
 
 
 /*
@@ -136,7 +174,7 @@ EXAMPLE OF CALCULATOR EQUAL EVENT LISTENER
     });
 */
 
-
+// disregard logic below from other surce NOT RELATED
 
 
 /*
@@ -169,11 +207,15 @@ Win logic works by adding the row and column squares.
  *         73   146   292
  *
  */
+
+ /*
 wins = [7, 56, 448, 73, 146, 292, 273, 84],
 
 /*
  * Returns whether the given score is a winning score.
  */
+
+ /*
 win = function (score) {
     for (var i = 0; i < wins.length; i += 1) {
         if ((wins[i] & score) === wins[i]) {
@@ -182,6 +224,7 @@ win = function (score) {
     }
     return false;
 },
+*/
 
 /*
 So, to do it programatically, you can use classes to keep track of what "set" each cell is in, i.e. "row1" or "col1":
